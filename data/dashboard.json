@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "updatedAt": "2026-08-11 16:45",
+    "modelVersion": "V1.0",
+    "modelStatus": "试验 · 未校准",
+    "maturedSamples": 0,
+    "refreshSeconds": 60
+  },
+  "account": {
+    "initialCash": 1000000,
+    "cash": 1000000,
+    "nav": 1000000,
+    "exposurePct": 0,
+    "dailyReturnPct": 0,
+    "cumulativeReturnPct": 0,
+    "fees": 0
+  },
+  "benchmark": {
+    "name": "中证1000",
+    "close": 7698.05,
+    "dailyReturnPct": -0.46,
+    "cumulativeReturnPct": 0
+  },
+  "market": {
+    "regime": "缩量调整 · 局部题材点火 · 低追涨容错",
+    "turnoverBillion": 23356,
+    "turnoverChangeBillion": -2031,
+    "advancers": 1615,
+    "decliners": 3777,
+    "flat": 0,
+    "limitUp": 60,
+    "limitDown": 2,
+    "indices": [
+      {
+        "name": "上证指数",
+        "close": 3934.09,
+        "returnPct": -0.819
+      },
+      {
+        "name": "深证成指",
+        "close": 14259.44,
+        "returnPct": -0.402
+      },
+      {
+        "name": "创业板指",
+        "close": 3549.16,
+        "returnPct": 0.338
+      },
+      {
+        "name": "中证1000",
+        "close": 7698.05,
+        "returnPct": -0.46
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "08-11",
+      "nav": 1000000,
+      "benchmark": 1000000
+    }
+  ],
+  "stage1": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "close": 886.96,
+      "dayReturnPct": 2.589,
+      "turnoverMillion": 29958.63,
+      "pEnter": 72,
+      "pUp": 58,
+      "pExit": 38,
+      "action": "观察"
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "close": 415.3,
+      "dayReturnPct": 3.929,
+      "turnoverMillion": 19977.4,
+      "pEnter": 75,
+      "pUp": 61,
+      "pExit": 40,
+      "action": "等待确认"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "close": 193.87,
+      "dayReturnPct": 4.265,
+      "turnoverMillion": 17589.17,
+      "pEnter": 73,
+      "pUp": 60,
+      "pExit": 42,
+      "action": "等待确认"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "close": 65.85,
+      "dayReturnPct": 6.726,
+      "turnoverMillion": 17293.42,
+      "pEnter": 77,
+      "pUp": 64,
+      "pExit": 46,
+      "action": "等待确认"
+    },
+    {
+      "code": "300274",
+      "name": "阳光电源",
+      "close": 120.07,
+      "dayReturnPct": 5.593,
+      "turnoverMillion": 10094.97,
+      "pEnter": 74,
+      "pUp": 62,
+      "pExit": 39,
+      "action": "等待确认"
+    },
+    {
+      "code": "002281",
+      "name": "光迅科技",
+      "close": 184.07,
+      "dayReturnPct": 3.236,
+      "turnoverMillion": 9799.36,
+      "pEnter": 71,
+      "pUp": 58,
+      "pExit": 41,
+      "action": "观察"
+    },
+    {
+      "code": "301526",
+      "name": "国际复材",
+      "close": 39.39,
+      "dayReturnPct": 3.332,
+      "turnoverMillion": 9068.57,
+      "pEnter": 69,
+      "pUp": 56,
+      "pExit": 43,
+      "action": "观察"
+    },
+    {
+      "code": "000725",
+      "name": "京东方A",
+      "close": 5.91,
+      "dayReturnPct": 0.34,
+      "turnoverMillion": 8056.81,
+      "pEnter": 58,
+      "pUp": 49,
+      "pExit": 34,
+      "action": "观察"
+    }
+  ],
+  "stage2": [
+    {
+      "code": "300693",
+      "name": "盛弘股份",
+      "close": 43.87,
+      "dayReturnPct": 12.921,
+      "turnoverMillion": 1784.99,
+      "pEnter": 83,
+      "pUp": 67,
+      "pExit": 53,
+      "action": "条件性关注"
+    },
+    {
+      "code": "301566",
+      "name": "达利凯普",
+      "close": 28.19,
+      "dayReturnPct": 13.213,
+      "turnoverMillion": 1857.19,
+      "pEnter": 82,
+      "pUp": 64,
+      "pExit": 57,
+      "action": "条件性关注"
+    },
+    {
+      "code": "301209",
+      "name": "联合化学",
+      "close": 58.74,
+      "dayReturnPct": 15.041,
+      "turnoverMillion": 390.89,
+      "pEnter": 79,
+      "pUp": 62,
+      "pExit": 58,
+      "action": "条件性关注"
+    },
+    {
+      "code": "300158",
+      "name": "振东制药",
+      "close": 6.01,
+      "dayReturnPct": 14.259,
+      "turnoverMillion": 680.23,
+      "pEnter": 81,
+      "pUp": 63,
+      "pExit": 55,
+      "action": "条件性关注"
+    },
+    {
+      "code": "301596",
+      "name": "瑞迪智驱",
+      "close": 54.71,
+      "dayReturnPct": 11.881,
+      "turnoverMillion": 412.03,
+      "pEnter": 78,
+      "pUp": 60,
+      "pExit": 61,
+      "action": "等待确认"
+    },
+    {
+      "code": "301529",
+      "name": "福赛科技",
+      "close": 96.16,
+      "dayReturnPct": 20.005,
+      "turnoverMillion": 557.58,
+      "pEnter": 86,
+      "pUp": 66,
+      "pExit": 66,
+      "action": "不追涨_等待可成交"
+    },
+    {
+      "code": "300426",
+      "name": "华智数媒",
+      "close": 7.8,
+      "dayReturnPct": 20,
+      "turnoverMillion": 421.06,
+      "pEnter": 84,
+      "pUp": 64,
+      "pExit": 68,
+      "action": "不追涨_等待可成交"
+    },
+    {
+      "code": "301550",
+      "name": "斯菱智驱",
+      "close": 87.42,
+      "dayReturnPct": 20,
+      "turnoverMillion": 1173.06,
+      "pEnter": 88,
+      "pUp": 68,
+      "pExit": 65,
+      "action": "不追涨_等待可成交"
+    },
+    {
+      "code": "301520",
+      "name": "万邦医药",
+      "close": 70.39,
+      "dayReturnPct": 19.997,
+      "turnoverMillion": 1404.17,
+      "pEnter": 87,
+      "pUp": 67,
+      "pExit": 63,
+      "action": "不追涨_等待可成交"
+    },
+    {
+      "code": "300862",
+      "name": "蓝盾光电",
+      "close": 27.37,
+      "dayReturnPct": 19.991,
+      "turnoverMillion": 17.08,
+      "pEnter": 75,
+      "pUp": 50,
+      "pExit": 78,
+      "action": "回避_一字板流动性不足"
+    }
+  ],
+  "pendingOrders": [
+    {
+      "code": "300693",
+      "name": "盛弘股份",
+      "budgetPct": 8,
+      "range": "42.99 — 45.19",
+      "cancelRule": "VWAP高于45.19不追；跌破41.73取消",
+      "status": "pending"
+    },
+    {
+      "code": "301566",
+      "name": "达利凯普",
+      "budgetPct": 8,
+      "range": "27.63 — 29.04",
+      "cancelRule": "VWAP高于29.04不追；跌破26.80取消",
+      "status": "pending"
+    },
+    {
+      "code": "301209",
+      "name": "联合化学",
+      "budgetPct": 7,
+      "range": "57.57 — 60.50",
+      "cancelRule": "VWAP高于60.50不追；跌破55.80取消",
+      "status": "pending"
+    },
+    {
+      "code": "300158",
+      "name": "振东制药",
+      "budgetPct": 7,
+      "range": "5.89 — 6.19",
+      "cancelRule": "VWAP高于6.19不追；跌破5.70取消",
+      "status": "pending"
+    }
+  ],
+  "risks": [
+    {
+      "code": "600721",
+      "name": "百花医药",
+      "close": 12.75,
+      "dayReturnPct": 10.01,
+      "pExit": 88,
+      "reason": "6连板且风险提示/异动公告，高位封板不可合理追入"
+    },
+    {
+      "code": "600272",
+      "name": "开开实业",
+      "close": 15.7,
+      "dayReturnPct": 10.02,
+      "pExit": 82,
+      "reason": "4连板、高换手并有异动公告，分歧风险上升"
+    },
+    {
+      "code": "300862",
+      "name": "蓝盾光电",
+      "close": 27.37,
+      "dayReturnPct": 19.991,
+      "pExit": 78,
+      "reason": "一字涨停、成交额仅约0.17亿元，成交可得性差"
+    },
+    {
+      "code": "920038",
+      "name": "森合高科",
+      "close": 41.61,
+      "dayReturnPct": -9.661,
+      "pExit": 84,
+      "reason": "高开后接近最低价收盘，作为派发/退潮信号反向样本"
+    }
+  ],
+  "quality": [
+    {
+      "label": "日线与成交数据",
+      "value": 92,
+      "detail": "已核验"
+    },
+    {
+      "label": "龙虎榜与席位网络",
+      "value": 28,
+      "detail": "等待完整披露"
+    },
+    {
+      "label": "分钟VWAP与成交可得性",
+      "value": 35,
+      "detail": "次日核验"
+    },
+    {
+      "label": "概率校准与成熟样本",
+      "value": 5,
+      "detail": "0 / 30"
+    }
+  ],
+  "notes": [
+    "V1.0分数为冻结的试验性启发式分数，尚未做概率校准"
+  ]
+}

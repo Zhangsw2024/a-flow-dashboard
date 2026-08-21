@@ -4,7 +4,9 @@
     "modelVersion": "V1.0",
     "modelStatus": "试验 · 未校准",
     "maturedSamples": 17,
-    "refreshSeconds": 60
+    "refreshSeconds": 60,
+    "historicalSamples": 10,
+    "historicalSplit": "audit_seed"
   },
   "account": {
     "initialCash": 1000000,
@@ -430,11 +432,17 @@
       "label": "概率校准与成熟样本",
       "value": 56.7,
       "detail": "17 / 30"
+    },
+    {
+      "label": "历史点时回放",
+      "value": 10,
+      "detail": "10个 · 与前瞻分账"
     }
   ],
   "notes": [
     "V1.0分值为冻结框架下的未校准启发式分数，P字段仅用于相对排序，不代表真实概率",
-    "公开数据无法确认幕后账户身份；模拟成交不等于真实成交，短线可能出现快速且不可成交的亏损"
+    "公开数据无法确认幕后账户身份；模拟成交不等于真实成交，短线可能出现快速且不可成交的亏损",
+    "历史点时回放10个样本，净收益均值-4.417%；不计入实时前瞻成熟样本。"
   ],
   "positions": [],
   "todayOrders": []

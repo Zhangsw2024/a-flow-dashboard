@@ -31,7 +31,7 @@
     "turnoverChangeBillion": 1282,
     "advancers": 1456,
     "decliners": 3959,
-    "flat": 0,
+    "flat": 124,
     "limitUp": 34,
     "limitDown": 4,
     "indices": [
@@ -389,8 +389,8 @@
     },
     {
       "label": "分钟VWAP与成交可得性",
-      "value": 35,
-      "detail": "退出次日核验"
+      "value": 88,
+      "detail": "4笔委托已核验"
     },
     {
       "label": "概率校准与成熟样本",

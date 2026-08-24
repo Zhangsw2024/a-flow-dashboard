@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-21 19:30",
+    "updatedAt": "2026-08-24 18:00",
     "modelVersion": "V1.0",
     "modelStatus": "试验 · 未校准",
     "maturedSamples": 17,
@@ -10,50 +10,50 @@
   },
   "account": {
     "initialCash": 1000000,
-    "cash": 997946.46,
-    "nav": 997946.46,
-    "exposurePct": 0,
-    "dailyReturnPct": 0,
-    "cumulativeReturnPct": -0.205,
-    "fees": 161.61,
+    "cash": 911055.76,
+    "nav": 993455.76,
+    "exposurePct": 8.2943,
+    "dailyReturnPct": -0.45,
+    "cumulativeReturnPct": -0.654,
+    "fees": 187.67,
     "realizedPnl": -2009.07,
-    "unrealizedPnl": 0
+    "unrealizedPnl": -4464.64
   },
   "benchmark": {
     "name": "中证1000",
-    "close": 7601.8,
-    "dailyReturnPct": 0.158,
-    "cumulativeReturnPct": -1.25
+    "close": 7491.49,
+    "dailyReturnPct": -1.45,
+    "cumulativeReturnPct": -2.683
   },
   "market": {
-    "regime": "缩量分化回暖 · 有色与算力硬件集中",
-    "turnoverBillion": 18923,
-    "turnoverChangeBillion": -1870.6299999999999,
-    "advancers": 2505,
-    "decliners": 2862,
+    "regime": "放量普跌 · 科技硬件退潮 · 贵金属煤炭逆势",
+    "turnoverBillion": 20100,
+    "turnoverChangeBillion": 1282,
+    "advancers": 1456,
+    "decliners": 3959,
     "flat": 0,
-    "limitUp": 55,
-    "limitDown": 13,
+    "limitUp": 34,
+    "limitDown": 4,
     "indices": [
       {
         "name": "上证指数",
-        "close": 3905.2,
-        "returnPct": 0.04
+        "close": 3882.01,
+        "returnPct": -0.59
       },
       {
         "name": "深证成指",
-        "close": 14094.17,
-        "returnPct": 0.87
+        "close": 13794.29,
+        "returnPct": -2.13
       },
       {
         "name": "创业板指",
-        "close": 3545.58,
-        "returnPct": 1.43
+        "close": 3431.89,
+        "returnPct": -3.21
       },
       {
         "name": "中证1000",
-        "close": 7601.8,
-        "returnPct": 0.158
+        "close": 7491.49,
+        "returnPct": -1.45
       }
     ]
   },
@@ -102,271 +102,235 @@
       "date": "08-21",
       "nav": 997946.46,
       "benchmark": 987495.85
+    },
+    {
+      "date": "08-24",
+      "nav": 993455.76,
+      "benchmark": 973167.23
     }
   ],
   "stage1": [
     {
       "code": "600335",
       "name": "国机汽车",
-      "close": 5.26,
-      "dayReturnPct": 4.37,
-      "turnoverMillion": 338.957,
-      "pEnter": 64,
-      "pUp": 48,
-      "pExit": 52,
-      "action": "观察_等待次日量价确认"
+      "close": 5.04,
+      "dayReturnPct": -4.18,
+      "turnoverMillion": 236.82,
+      "pEnter": 54,
+      "pUp": 39,
+      "pExit": 65,
+      "action": "风险升高_放量回撤待企稳"
     },
     {
       "code": "002743",
       "name": "富煌钢构",
-      "close": 4.6,
-      "dayReturnPct": 4.07,
-      "turnoverMillion": 368.327,
-      "pEnter": 62,
-      "pUp": 47,
-      "pExit": 50,
-      "action": "观察_不追高"
+      "close": 4.47,
+      "dayReturnPct": -2.83,
+      "turnoverMillion": 167.16,
+      "pEnter": 54,
+      "pUp": 39,
+      "pExit": 62,
+      "action": "观察_高换手回落"
     },
     {
       "code": "300109",
       "name": "新开源",
-      "close": 16.4,
-      "dayReturnPct": 2.63,
-      "turnoverMillion": 1409.358,
-      "pEnter": 68,
-      "pUp": 53,
-      "pExit": 54,
-      "action": "等待确认_关注承接"
+      "close": 15.95,
+      "dayReturnPct": -2.74,
+      "turnoverMillion": 647.92,
+      "pEnter": 60,
+      "pUp": 45,
+      "pExit": 62,
+      "action": "观察_弱市承接尚可"
     },
     {
       "code": "002073",
       "name": "软控股份",
-      "close": 5.94,
-      "dayReturnPct": 4.21,
-      "turnoverMillion": 381.689,
-      "pEnter": 63,
-      "pUp": 49,
-      "pExit": 50,
-      "action": "观察_等待突破"
+      "close": 5.99,
+      "dayReturnPct": 0.84,
+      "turnoverMillion": 260.084,
+      "pEnter": 66,
+      "pUp": 50,
+      "pExit": 46,
+      "action": "等待确认_弱市相对强"
     },
     {
       "code": "002313",
       "name": "日海智能",
-      "close": 8.84,
-      "dayReturnPct": 0.68,
-      "turnoverMillion": 368.265,
-      "pEnter": 58,
-      "pUp": 43,
-      "pExit": 58,
-      "action": "观察_上影线降权"
+      "close": 8.75,
+      "dayReturnPct": -1.02,
+      "turnoverMillion": 212.91,
+      "pEnter": 55,
+      "pUp": 41,
+      "pExit": 61,
+      "action": "观察_上影与换手降权"
     },
     {
       "code": "605008",
       "name": "长鸿高科",
-      "close": 12.94,
-      "dayReturnPct": 0.7,
-      "turnoverMillion": 189.336,
-      "pEnter": 57,
-      "pUp": 44,
-      "pExit": 50,
-      "action": "观察_等待放量"
-    },
-    {
-      "code": "300927",
-      "name": "江天化学",
-      "close": 27.01,
-      "dayReturnPct": 4.12,
-      "turnoverMillion": 628.115,
-      "pEnter": 66,
-      "pUp": 50,
-      "pExit": 63,
-      "action": "等待确认_高振幅降权"
+      "close": 13.21,
+      "dayReturnPct": 2.09,
+      "turnoverMillion": 185.93,
+      "pEnter": 62,
+      "pUp": 48,
+      "pExit": 55,
+      "action": "等待确认_放量冲高回落"
     },
     {
       "code": "301048",
       "name": "金鹰重工",
-      "close": 9.46,
-      "dayReturnPct": 2.94,
-      "turnoverMillion": 119.855,
-      "pEnter": 59,
-      "pUp": 46,
-      "pExit": 48,
-      "action": "观察_等待板块联动"
+      "close": 9.02,
+      "dayReturnPct": -4.65,
+      "turnoverMillion": 93.34,
+      "pEnter": 52,
+      "pUp": 38,
+      "pExit": 64,
+      "action": "风险升高_量能不足"
     },
     {
       "code": "300332",
       "name": "天壕能源",
-      "close": 4.99,
-      "dayReturnPct": 2.25,
-      "turnoverMillion": 294.391,
-      "pEnter": 58,
-      "pUp": 45,
-      "pExit": 51,
-      "action": "观察_等待持续放量"
+      "close": 4.96,
+      "dayReturnPct": -0.6,
+      "turnoverMillion": 172.81,
+      "pEnter": 57,
+      "pUp": 44,
+      "pExit": 52,
+      "action": "观察_相对抗跌但未突破"
     },
     {
       "code": "002224",
       "name": "三力士",
-      "close": 3.72,
-      "dayReturnPct": 1.36,
-      "turnoverMillion": 117.042,
-      "pEnter": 55,
-      "pUp": 42,
-      "pExit": 49,
-      "action": "观察_弱确认"
+      "close": 3.62,
+      "dayReturnPct": -2.69,
+      "turnoverMillion": 77.862,
+      "pEnter": 51,
+      "pUp": 38,
+      "pExit": 58,
+      "action": "观察_弱确认失效"
     }
   ],
   "stage2": [
     {
       "code": "300308",
       "name": "中际旭创",
-      "close": 943,
-      "dayReturnPct": 4.29,
-      "turnoverMillion": 26686.401,
-      "pEnter": 86,
-      "pUp": 66,
-      "pExit": 48,
-      "action": "条件性关注_限价量确认"
+      "close": 870.22,
+      "dayReturnPct": -7.72,
+      "turnoverMillion": 34491.67,
+      "pEnter": 78,
+      "pUp": 50,
+      "pExit": 82,
+      "action": "风险升高_业绩兑现后放量下挫"
     },
     {
       "code": "300502",
       "name": "新易盛",
-      "close": 442,
-      "dayReturnPct": 6.76,
-      "turnoverMillion": 20792.811,
-      "pEnter": 84,
-      "pUp": 65,
-      "pExit": 52,
-      "action": "条件性关注_不接受高开"
+      "close": 412,
+      "dayReturnPct": -6.79,
+      "turnoverMillion": 20574.6,
+      "pEnter": 76,
+      "pUp": 48,
+      "pExit": 82,
+      "action": "风险升高_持仓次日执行退出"
     },
     {
       "code": "600183",
       "name": "生益科技",
-      "close": 132.8,
-      "dayReturnPct": 5.16,
-      "turnoverMillion": 8723.369,
-      "pEnter": 80,
-      "pUp": 61,
-      "pExit": 56,
-      "action": "条件性关注_等待承接"
+      "close": 126.3,
+      "dayReturnPct": -4.89,
+      "turnoverMillion": 8028.37,
+      "pEnter": 72,
+      "pUp": 48,
+      "pExit": 76,
+      "action": "风险升高_PCB主线转弱"
     },
     {
       "code": "002241",
       "name": "歌尔股份",
-      "close": 23.4,
-      "dayReturnPct": 6.27,
-      "turnoverMillion": 3945.734,
-      "pEnter": 78,
-      "pUp": 59,
-      "pExit": 55,
-      "action": "等待确认_不追涨"
+      "close": 23.48,
+      "dayReturnPct": 0.34,
+      "turnoverMillion": 4427.25,
+      "pEnter": 75,
+      "pUp": 54,
+      "pExit": 68,
+      "action": "观察_高开回落但相对抗跌"
     },
     {
       "code": "002463",
       "name": "沪电股份",
-      "close": 121.21,
-      "dayReturnPct": 6.03,
-      "turnoverMillion": 5952.246,
-      "pEnter": 79,
-      "pUp": 60,
-      "pExit": 55,
-      "action": "条件性关注_限高开"
+      "close": 115.57,
+      "dayReturnPct": -4.65,
+      "turnoverMillion": 4843.21,
+      "pEnter": 70,
+      "pUp": 45,
+      "pExit": 78,
+      "action": "风险升高_价格带失效"
     },
     {
       "code": "002384",
       "name": "东山精密",
-      "close": 201.08,
-      "dayReturnPct": 1.73,
-      "turnoverMillion": 10401.812,
-      "pEnter": 74,
-      "pUp": 54,
-      "pExit": 62,
-      "action": "观察_机构流入待确认"
-    },
-    {
-      "code": "002396",
-      "name": "星网锐捷",
-      "close": 33.17,
-      "dayReturnPct": 10.02,
-      "turnoverMillion": 2406.313,
-      "pEnter": 82,
-      "pUp": 55,
-      "pExit": 78,
-      "action": "风险升高_涨停不追"
+      "close": 193.6,
+      "dayReturnPct": -3.72,
+      "turnoverMillion": 15219.49,
+      "pEnter": 67,
+      "pUp": 43,
+      "pExit": 80,
+      "action": "风险升高_高振幅资金分歧"
     },
     {
       "code": "002716",
       "name": "湖南白银",
-      "close": 10.42,
-      "dayReturnPct": 10.03,
-      "turnoverMillion": 4312.986,
-      "pEnter": 84,
-      "pUp": 57,
-      "pExit": 82,
-      "action": "风险升高_板块高潮"
+      "close": 11.46,
+      "dayReturnPct": 9.98,
+      "turnoverMillion": 6608.85,
+      "pEnter": 88,
+      "pUp": 55,
+      "pExit": 88,
+      "action": "风险升高_连续涨停不追"
     },
     {
       "code": "600460",
       "name": "士兰微",
-      "close": 35.89,
-      "dayReturnPct": 9.99,
-      "turnoverMillion": 2699.277,
-      "pEnter": 81,
-      "pUp": 56,
-      "pExit": 80,
-      "action": "风险升高_涨停不追"
+      "close": 35.56,
+      "dayReturnPct": -0.92,
+      "turnoverMillion": 9418.85,
+      "pEnter": 78,
+      "pUp": 52,
+      "pExit": 82,
+      "action": "风险升高_巨量换手"
     },
     {
       "code": "601212",
       "name": "白银有色",
-      "close": 6.09,
-      "dayReturnPct": 9.93,
-      "turnoverMillion": 2015.909,
-      "pEnter": 80,
-      "pUp": 54,
-      "pExit": 78,
-      "action": "等待确认_不接一字"
+      "close": 6.7,
+      "dayReturnPct": 10.02,
+      "turnoverMillion": 1457.89,
+      "pEnter": 86,
+      "pUp": 55,
+      "pExit": 86,
+      "action": "风险升高_连续涨停不追"
+    },
+    {
+      "code": "300927",
+      "name": "江天化学",
+      "close": 29.2,
+      "dayReturnPct": 8.11,
+      "turnoverMillion": 658.54,
+      "pEnter": 79,
+      "pUp": 57,
+      "pExit": 69,
+      "action": "等待确认_阶段迁移后不追高"
     }
   ],
   "pendingOrders": [
     {
-      "code": "300308",
-      "name": "中际旭创",
-      "side": "buy",
-      "quantity": 100,
-      "budgetPct": 9.45,
-      "range": "924.14 — 966.58",
-      "cancelRule": "高开超过2.5%、低于924.14元、关键数据缺失或P_exit升至75以上则取消",
-      "status": "pending"
-    },
-    {
       "code": "300502",
       "name": "新易盛",
-      "side": "buy",
+      "side": "sell",
       "quantity": 200,
-      "budgetPct": 8.86,
-      "range": "433.16 — 453.05",
-      "cancelRule": "高开超过2.5%、跌破433.16元、关键数据缺失或P_exit升至75以上则取消",
-      "status": "pending"
-    },
-    {
-      "code": "600183",
-      "name": "生益科技",
-      "side": "buy",
-      "quantity": 700,
-      "budgetPct": 9.32,
-      "range": "130.14 — 136.12",
-      "cancelRule": "高开超过2.5%、跌破130.14元、板块净流入反转或数据缺失则取消",
-      "status": "pending"
-    },
-    {
-      "code": "002463",
-      "name": "沪电股份",
-      "side": "buy",
-      "quantity": 700,
-      "budgetPct": 8.5,
-      "range": "118.79 — 124.24",
-      "cancelRule": "高开超过2.5%、跌破118.79元、板块联动失效或数据缺失则取消",
+      "budgetPct": 8.29,
+      "range": "2026-08-25首15分钟VWAP并计0.10%卖出滑点；若跌停缺乏成交证据则保留并顺延",
+      "cancelRule": "仅在停牌或跌停不可成交时顺延，不因次日反弹事后撤单",
       "status": "pending"
     }
   ],
@@ -374,42 +338,42 @@
     {
       "code": "688185",
       "name": "康希诺",
-      "close": 77.32,
-      "dayReturnPct": 20.01,
-      "pExit": 96,
-      "reason": "20cm二连板但炸板14次、尾盘封单为零，验证高位接力失败风险"
+      "close": 75.5,
+      "dayReturnPct": -2.35,
+      "pExit": 90,
+      "reason": "高位二连板后放量震荡，退出风险仍高；首日未触及-8%标签"
     },
     {
       "code": "002491",
       "name": "通鼎互联",
-      "close": 21.2,
-      "dayReturnPct": 10.02,
-      "pExit": 92,
-      "reason": "高换手二连板、封成比极低且主力净流出，偏换手接力而非锁仓"
+      "close": 20.81,
+      "dayReturnPct": -1.84,
+      "pExit": 94,
+      "reason": "高换手二连板次日冲高回落，买卖席位分歧得到价格验证"
     },
     {
       "code": "688137",
       "name": "近岸蛋白",
-      "close": 80.99,
-      "dayReturnPct": 20,
-      "pExit": 90,
-      "reason": "20cm二连板但封板质量弱，医药主体资金大幅流出"
+      "close": 75.49,
+      "dayReturnPct": -6.79,
+      "pExit": 98,
+      "reason": "次日最低72.99元，相对入选价80.99元回撤9.88%，退出风险标签提前命中"
     },
     {
       "code": "300243",
       "name": "瑞丰高材",
-      "close": 16.76,
-      "dayReturnPct": -1.41,
-      "pExit": 88,
-      "reason": "异常波动后连续回撤，继续验证高位派发后的三日风险窗口"
+      "close": 15.98,
+      "dayReturnPct": -4.65,
+      "pExit": 90,
+      "reason": "异常波动后继续回撤，首日尚未触及-8%但派发结构未修复"
     },
     {
       "code": "603801",
       "name": "志邦家居",
       "close": 6.95,
-      "dayReturnPct": -3.87,
-      "pExit": 91,
-      "reason": "盘中接近涨停后翻绿，异常放量与长上影显示点火失败及派发风险"
+      "dayReturnPct": 0,
+      "pExit": 94,
+      "reason": "低开后冲高再回落，13.31%换手与长上影继续验证点火失败"
     }
   ],
   "quality": [
@@ -440,10 +404,64 @@
     }
   ],
   "notes": [
-    "V1.0分值为冻结框架下的未校准启发式分数，P字段仅用于相对排序，不代表真实概率",
-    "公开数据无法确认幕后账户身份；模拟成交不等于真实成交，短线可能出现快速且不可成交的亏损",
+    "除已定向核验项目外，今日未进行全A横截面重筛（按周一轻量跟踪规则）",
+    "涨跌停家数采用公开复盘口径，可能与ST/北交所纳入口径存在少量差异",
     "历史点时回放10个样本，净收益均值-4.417%；不计入实时前瞻成熟样本。"
   ],
-  "positions": [],
-  "todayOrders": []
+  "positions": [
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "quantity": 200,
+      "costPrice": 434.3232,
+      "close": 412,
+      "marketValue": 82400,
+      "weightPct": 8.29,
+      "unrealizedPnl": -4464.64,
+      "holdingDays": 1,
+      "exitRule": "P_exit升至82且收盘跌破冻结价格带；2026-08-25按首15分钟可执行价退出，跌停不可成交则顺延"
+    }
+  ],
+  "todayOrders": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "side": "buy",
+      "status": "cancelled",
+      "quantity": 100,
+      "fillPrice": null,
+      "commission": 0,
+      "reason": "首15分钟VWAP 921.8996元低于冻结下限924.14元"
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "side": "buy",
+      "status": "filled",
+      "quantity": 200,
+      "fillPrice": 434.3232,
+      "commission": 26.06,
+      "reason": "VWAP位于433.16至453.05元冻结区间且有充分成交"
+    },
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "side": "buy",
+      "status": "cancelled",
+      "quantity": 700,
+      "fillPrice": null,
+      "commission": 0,
+      "reason": "首15分钟VWAP 129.0562元低于冻结下限130.14元，且PCB板块转弱"
+    },
+    {
+      "code": "002463",
+      "name": "沪电股份",
+      "side": "buy",
+      "status": "cancelled",
+      "quantity": 700,
+      "fillPrice": null,
+      "commission": 0,
+      "reason": "首15分钟VWAP 118.5108元低于冻结下限118.79元"
+    }
+  ]
 }

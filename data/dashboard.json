@@ -401,6 +401,11 @@
       "label": "历史点时回放",
       "value": 10,
       "detail": "10个 · 与前瞻分账"
+    },
+    {
+      "label": "多源资金证据层",
+      "value": 28.6,
+      "detail": "2/7组已启动"
     }
   ],
   "notes": [
@@ -463,5 +468,96 @@
       "commission": 0,
       "reason": "首15分钟VWAP 118.5108元低于冻结下限118.79元"
     }
-  ]
+  ],
+  "evidenceLayer": {
+    "researchVersion": "V2.0-research",
+    "status": "staged_shadow_only",
+    "effectiveFrom": "2026-08-25",
+    "champion": "V1.0",
+    "activeChallenger": "V1.1-shadow",
+    "policy": "研究层已接入；低覆盖不融合，逐组影子验证，不改写冻结信号",
+    "minimumCoveragePct": 35,
+    "groups": [
+      {
+        "id": "cross_market",
+        "name": "跨市场仓位",
+        "frequency": "daily",
+        "coveredSymbols": 0,
+        "totalSymbols": 19,
+        "coveragePct": 0,
+        "status": "awaiting_data",
+        "missingReason": "尚未采集IM/IC基差、期权偏度和ETF份额，不用指数涨跌替代",
+        "caveat": "期货公司会员不是最终投资者；ETF申赎包含做市与套利。"
+      },
+      {
+        "id": "institutional_ownership",
+        "name": "机构持仓与股东结构",
+        "frequency": "quarterly_or_event",
+        "coveredSymbols": 0,
+        "totalSymbols": 19,
+        "coveragePct": 0,
+        "status": "awaiting_data",
+        "missingReason": "尚未完成点时股东与机构调研快照",
+        "caveat": "披露显著滞后，只用于中期筹码结构，不直接预测次日涨跌。"
+      },
+      {
+        "id": "block_transactions",
+        "name": "大宗交易与协议转让",
+        "frequency": "daily",
+        "coveredSymbols": 0,
+        "totalSymbols": 19,
+        "coveragePct": 0,
+        "status": "awaiting_data",
+        "missingReason": "尚未完成主动池大宗交易增量查询",
+        "caveat": "折价大宗可能是减持或换仓，不能自动解释为吸筹。"
+      },
+      {
+        "id": "leverage",
+        "name": "融资融券与杠杆",
+        "frequency": "daily",
+        "coveredSymbols": 0,
+        "totalSymbols": 19,
+        "coveragePct": 0,
+        "status": "awaiting_data",
+        "missingReason": "尚未完成融资融券增量查询",
+        "caveat": "融资资金不等于机构资金，主要用于识别跟随杠杆和踩踏风险。"
+      },
+      {
+        "id": "corporate_actions",
+        "name": "公司行为与资本运作",
+        "frequency": "event",
+        "coveredSymbols": 1,
+        "totalSymbols": 19,
+        "coveragePct": 5.3,
+        "status": "partial_shadow_data",
+        "missingReason": null,
+        "caveat": "必须区分基本面驱动和纯资金驱动，公告利好不等于短线买点。"
+      },
+      {
+        "id": "industry_network",
+        "name": "产业链与资金扩散",
+        "frequency": "daily",
+        "coveredSymbols": 5,
+        "totalSymbols": 19,
+        "coveragePct": 26.3,
+        "status": "partial_shadow_data",
+        "missingReason": null,
+        "caveat": "单只上涨而行业网络不响应时，降低持续性判断。"
+      },
+      {
+        "id": "regulatory",
+        "name": "监管与微观事件",
+        "frequency": "event",
+        "coveredSymbols": 0,
+        "totalSymbols": 19,
+        "coveragePct": 0,
+        "status": "awaiting_data",
+        "missingReason": "尚未完成主动池监管事件增量查询",
+        "caveat": "监管信息主要用于风险和可交易性，不用作幕后身份认定。"
+      }
+    ],
+    "shadowReadySymbols": [
+      "300308"
+    ]
+  }
 }

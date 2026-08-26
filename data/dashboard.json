@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-08-25 18:00",
+    "updatedAt": "2026-08-26 16:30",
     "modelVersion": "V1.0",
     "modelStatus": "试验 · 未校准",
-    "maturedSamples": 27,
+    "maturedSamples": 28,
     "refreshSeconds": 60,
     "historicalSamples": 10,
     "historicalSplit": "audit_seed"
@@ -13,7 +13,7 @@
     "cash": 990843.51,
     "nav": 990843.51,
     "exposurePct": 0,
-    "dailyReturnPct": -0.263,
+    "dailyReturnPct": 0,
     "cumulativeReturnPct": -0.916,
     "fees": 251.56,
     "realizedPnl": -9156.49,
@@ -21,39 +21,39 @@
   },
   "benchmark": {
     "name": "中证1000",
-    "close": 7527.5,
-    "dailyReturnPct": 0.48,
-    "cumulativeReturnPct": -2.215
+    "close": 7544.67,
+    "dailyReturnPct": 0.228,
+    "cumulativeReturnPct": -1.992
   },
   "market": {
-    "regime": "缩量普涨 · 小盘修复 · 高位硬件与贵金属分化",
-    "turnoverBillion": 18318.4446,
-    "turnoverChangeBillion": -1781.5554,
-    "advancers": 4234,
-    "decliners": 1245,
-    "flat": 67,
-    "limitUp": 70,
-    "limitDown": 4,
+    "regime": "缩量上涨 · 券商科技修复 · 高位题材分化",
+    "turnoverBillion": 18087.2324,
+    "turnoverChangeBillion": -231.2122,
+    "advancers": 2942,
+    "decliners": 2445,
+    "flat": 156,
+    "limitUp": 56,
+    "limitDown": 2,
     "indices": [
       {
         "name": "上证指数",
-        "close": 3889.44,
-        "returnPct": 0.19
+        "close": 3912.52,
+        "returnPct": 0.59
       },
       {
         "name": "深证成指",
-        "close": 13745.87,
-        "returnPct": -0.35
+        "close": 13841.33,
+        "returnPct": 0.69
       },
       {
         "name": "创业板指",
-        "close": 3397.52,
-        "returnPct": -1
+        "close": 3414.88,
+        "returnPct": 0.51
       },
       {
         "name": "中证1000",
-        "close": 7527.5,
-        "returnPct": 0.48
+        "close": 7544.67,
+        "returnPct": 0.228
       }
     ]
   },
@@ -112,153 +112,158 @@
       "date": "08-25",
       "nav": 990843.51,
       "benchmark": 977845.04
+    },
+    {
+      "date": "08-26",
+      "nav": 990843.51,
+      "benchmark": 980075.47
     }
   ],
   "stage1": [
     {
       "code": "600335",
       "name": "国机汽车",
-      "close": 5.2,
-      "dayReturnPct": 3.17,
-      "turnoverMillion": 175.17,
-      "pEnter": 58,
+      "close": 5.23,
+      "dayReturnPct": 0.58,
+      "turnoverMillion": 95.49,
+      "pEnter": 57,
       "pUp": 43,
-      "pExit": 57,
-      "action": "观察_缩量反弹待持续"
+      "pExit": 54,
+      "action": "观察_缩量横盘待突破"
     },
     {
       "code": "002743",
       "name": "富煌钢构",
-      "close": 4.64,
-      "dayReturnPct": 3.8,
-      "turnoverMillion": 124.44,
-      "pEnter": 58,
-      "pUp": 44,
-      "pExit": 56,
-      "action": "观察_反弹但量能下降"
+      "close": 4.85,
+      "dayReturnPct": 4.53,
+      "turnoverMillion": 117.78,
+      "pEnter": 63,
+      "pUp": 48,
+      "pExit": 51,
+      "action": "等待确认_放量修复但未形成持续突破"
     },
     {
       "code": "300109",
       "name": "新开源",
-      "close": 15.8,
-      "dayReturnPct": -0.94,
-      "turnoverMillion": 529.83,
-      "pEnter": 58,
-      "pUp": 43,
-      "pExit": 65,
-      "action": "风险升高_高换手弱收"
+      "close": 15.35,
+      "dayReturnPct": -2.85,
+      "turnoverMillion": 394.89,
+      "pEnter": 52,
+      "pUp": 38,
+      "pExit": 72,
+      "action": "风险升高_连续弱收与高换手"
     },
     {
       "code": "002073",
       "name": "软控股份",
-      "close": 5.95,
-      "dayReturnPct": -0.67,
-      "turnoverMillion": 140.37,
+      "close": 6,
+      "dayReturnPct": 0.84,
+      "turnoverMillion": 137.63,
       "pEnter": 62,
       "pUp": 46,
-      "pExit": 50,
-      "action": "观察_缩量整理"
+      "pExit": 49,
+      "action": "观察_缩量整理相对稳定"
     },
     {
       "code": "002313",
       "name": "日海智能",
-      "close": 8.7,
-      "dayReturnPct": -0.57,
-      "turnoverMillion": 130.49,
-      "pEnter": 53,
-      "pUp": 39,
-      "pExit": 63,
-      "action": "风险升高_开高走低"
+      "close": 8.66,
+      "dayReturnPct": -0.46,
+      "turnoverMillion": 97.85,
+      "pEnter": 50,
+      "pUp": 37,
+      "pExit": 66,
+      "action": "风险升高_反弹动能不足"
     },
     {
       "code": "605008",
       "name": "长鸿高科",
-      "close": 12.91,
-      "dayReturnPct": -2.27,
-      "turnoverMillion": 95.46,
-      "pEnter": 56,
-      "pUp": 42,
-      "pExit": 66,
-      "action": "风险升高_昨日冲高后回撤"
+      "close": 12.76,
+      "dayReturnPct": -1.16,
+      "turnoverMillion": 71.92,
+      "pEnter": 50,
+      "pUp": 37,
+      "pExit": 72,
+      "action": "风险升高_连续回撤且量能萎缩"
     },
     {
       "code": "301048",
       "name": "金鹰重工",
-      "close": 9.15,
-      "dayReturnPct": 1.44,
-      "turnoverMillion": 54.02,
-      "pEnter": 54,
-      "pUp": 40,
-      "pExit": 58,
-      "action": "观察_缩量修复"
+      "close": 9.16,
+      "dayReturnPct": 0.11,
+      "turnoverMillion": 46.08,
+      "pEnter": 52,
+      "pUp": 39,
+      "pExit": 60,
+      "action": "观察_低量震荡无确认"
     },
     {
       "code": "300332",
       "name": "天壕能源",
-      "close": 5.06,
-      "dayReturnPct": 2.02,
-      "turnoverMillion": 160.73,
-      "pEnter": 62,
-      "pUp": 47,
-      "pExit": 48,
-      "action": "等待确认_放量温和修复"
+      "close": 5.03,
+      "dayReturnPct": -0.59,
+      "turnoverMillion": 115,
+      "pEnter": 55,
+      "pUp": 41,
+      "pExit": 57,
+      "action": "观察_修复未延续"
     },
     {
       "code": "002224",
       "name": "三力士",
-      "close": 3.7,
-      "dayReturnPct": 2.21,
-      "turnoverMillion": 58.8,
-      "pEnter": 54,
-      "pUp": 40,
-      "pExit": 53,
-      "action": "观察_缩量反弹未突破"
+      "close": 3.78,
+      "dayReturnPct": 2.16,
+      "turnoverMillion": 90.59,
+      "pEnter": 58,
+      "pUp": 44,
+      "pExit": 50,
+      "action": "等待确认_反弹但仍未突破"
     }
   ],
   "stage2": [
     {
       "code": "600183",
       "name": "生益科技",
-      "close": 129,
-      "dayReturnPct": 2.14,
-      "turnoverMillion": 8137.04,
-      "pEnter": 73,
+      "close": 130.01,
+      "dayReturnPct": 0.78,
+      "turnoverMillion": 7531.7,
+      "pEnter": 72,
       "pUp": 50,
-      "pExit": 72,
-      "action": "观察_宽幅修复但风险未解除"
+      "pExit": 73,
+      "action": "风险升高_宽幅震荡承接未稳定"
     },
     {
       "code": "002241",
       "name": "歌尔股份",
-      "close": 23.07,
-      "dayReturnPct": -1.75,
-      "turnoverMillion": 1959.86,
-      "pEnter": 70,
-      "pUp": 48,
-      "pExit": 72,
-      "action": "风险升高_弱于市场宽度"
+      "close": 23.82,
+      "dayReturnPct": 3.25,
+      "turnoverMillion": 2911.37,
+      "pEnter": 72,
+      "pUp": 51,
+      "pExit": 66,
+      "action": "观察_放量修复待连续性"
     },
     {
       "code": "002463",
       "name": "沪电股份",
-      "close": 114.29,
-      "dayReturnPct": -1.11,
-      "turnoverMillion": 4734.04,
-      "pEnter": 68,
-      "pUp": 43,
-      "pExit": 80,
-      "action": "风险升高_反弹承接不足"
+      "close": 119.22,
+      "dayReturnPct": 4.31,
+      "turnoverMillion": 7090.4,
+      "pEnter": 74,
+      "pUp": 51,
+      "pExit": 68,
+      "action": "观察_强修复但仍处高波动区"
     },
     {
       "code": "300927",
       "name": "江天化学",
-      "close": 28.5,
-      "dayReturnPct": -2.4,
-      "turnoverMillion": 615.98,
-      "pEnter": 72,
-      "pUp": 49,
-      "pExit": 78,
-      "action": "风险升高_冲高回落与高换手"
+      "close": 31.39,
+      "dayReturnPct": 10.14,
+      "turnoverMillion": 814.96,
+      "pEnter": 85,
+      "pUp": 55,
+      "pExit": 90,
+      "action": "风险升高_高换手涨停不追"
     }
   ],
   "pendingOrders": [],
@@ -266,42 +271,42 @@
     {
       "code": "002491",
       "name": "通鼎互联",
-      "close": 21.4,
-      "dayReturnPct": 2.84,
+      "close": 22.48,
+      "dayReturnPct": 5.05,
       "pExit": 99,
-      "reason": "24.28%高换手反弹但龙虎榜净卖出4.55亿元，深股通及多家机构专用席位均净卖出"
+      "reason": "28.84%高换手反弹与前一日龙虎榜净卖出4.55亿元并存，筹码交换剧烈"
     },
     {
       "code": "300308",
       "name": "中际旭创",
-      "close": 846,
-      "dayReturnPct": -2.78,
-      "pExit": 94,
-      "reason": "两日连续回撤并先触及-8%固定障碍，业绩后资金兑现仍未结束"
+      "close": 850.9,
+      "dayReturnPct": 0.58,
+      "pExit": 90,
+      "reason": "先触及-8%标签后仅弱修复，仍处三日退出风险验证窗口"
     },
     {
       "code": "300502",
       "name": "新易盛",
-      "close": 400.87,
-      "dayReturnPct": -2.7,
-      "pExit": 94,
-      "reason": "两日连续回撤并先触及-8%固定障碍，模拟持仓已按冻结规则退出"
+      "close": 398.78,
+      "dayReturnPct": -0.52,
+      "pExit": 92,
+      "reason": "先触及-8%后继续宽幅震荡，最低385元，退出风险尚未解除"
     },
     {
       "code": "002716",
       "name": "湖南白银",
-      "close": 10.77,
-      "dayReturnPct": -6.02,
-      "pExit": 98,
-      "reason": "高开触及+5%标签后放量回落6.02%，20.43%换手显示接力退潮"
+      "close": 11.32,
+      "dayReturnPct": 5.11,
+      "pExit": 96,
+      "reason": "20.52%高换手反弹，前一日冲高回落后的接力稳定性仍不足"
     },
     {
       "code": "601212",
       "name": "白银有色",
-      "close": 6.58,
-      "dayReturnPct": -1.79,
-      "pExit": 97,
-      "reason": "开盘跨越+5%标签后回落，9.30%换手与长阴线显示高位分歧"
+      "close": 7.24,
+      "dayReturnPct": 10.03,
+      "pExit": 98,
+      "reason": "涨停再加速但此前高开回落结构未消除，高位交易拥挤"
     }
   ],
   "quality": [
@@ -317,13 +322,13 @@
     },
     {
       "label": "分钟VWAP与成交可得性",
-      "value": 88,
-      "detail": "1笔委托已核验"
+      "value": 35,
+      "detail": "当日无待判定委托"
     },
     {
       "label": "概率校准与成熟样本",
-      "value": 90,
-      "detail": "27 / 30"
+      "value": 93.3,
+      "detail": "28 / 30"
     },
     {
       "label": "历史点时回放",
@@ -342,24 +347,13 @@
     }
   ],
   "notes": [
-    "同花顺页面显示今日沪市和科创板龙虎榜暂未公布，相关席位证据保持缺失",
-    "量化技能适配器依赖尚未就绪，未使用其数据补齐缺口",
+    "今日无模拟委托，因此未抓取分钟VWAP；未进行非必要全A重筛",
+    "平盘家数采用Wind沪深京公开复盘口径，同花顺涨跌家数口径略有差异",
     "量化适配层A-FLOW-ADAPTERS-1.0已接线；依赖、字段、单位、点时和交叉来源校验完成前不进入评分。",
     "历史点时回放10个样本，净收益均值-4.417%；不计入实时前瞻成熟样本。"
   ],
   "positions": [],
-  "todayOrders": [
-    {
-      "code": "300502",
-      "name": "新易盛",
-      "side": "sell",
-      "status": "filled",
-      "quantity": 200,
-      "fillPrice": 399.2582,
-      "commission": 23.96,
-      "reason": "P_exit升至82且价格带失效；有充分成交，未出现跌停不可成交"
-    }
-  ],
+  "todayOrders": [],
   "evidenceLayer": {
     "researchVersion": "V2.0-research",
     "status": "staged_shadow_only",
@@ -377,7 +371,7 @@
         "totalSymbols": 13,
         "coveragePct": 0,
         "status": "awaiting_data",
-        "missingReason": "未为当日主动池取得可点时归属的期货、期权和ETF份额证据",
+        "missingReason": null,
         "caveat": "期货公司会员不是最终投资者；ETF申赎包含做市与套利。"
       },
       {
@@ -388,7 +382,7 @@
         "totalSymbols": 13,
         "coveragePct": 0,
         "status": "awaiting_data",
-        "missingReason": "非季度或事件更新日，未新增点时机构持仓快照",
+        "missingReason": null,
         "caveat": "披露显著滞后，只用于中期筹码结构，不直接预测次日涨跌。"
       },
       {
@@ -399,7 +393,7 @@
         "totalSymbols": 13,
         "coveragePct": 0,
         "status": "awaiting_data",
-        "missingReason": "主动池未取得需升级置信度的大宗交易增量证据",
+        "missingReason": null,
         "caveat": "折价大宗可能是减持或换仓，不能自动解释为吸筹。"
       },
       {
@@ -410,7 +404,7 @@
         "totalSymbols": 13,
         "coveragePct": 0,
         "status": "awaiting_data",
-        "missingReason": "量化适配器依赖未就绪，未用不完整融资数据补齐",
+        "missingReason": null,
         "caveat": "融资资金不等于机构资金，主要用于识别跟随杠杆和踩踏风险。"
       },
       {
@@ -421,7 +415,7 @@
         "totalSymbols": 13,
         "coveragePct": 0,
         "status": "awaiting_data",
-        "missingReason": "主动池未发现经核验且需要改变解释的新公司行为",
+        "missingReason": null,
         "caveat": "必须区分基本面驱动和纯资金驱动，公告利好不等于短线买点。"
       },
       {
@@ -432,7 +426,7 @@
         "totalSymbols": 13,
         "coveragePct": 0,
         "status": "awaiting_data",
-        "missingReason": "市场宽度修复但行业内部分化，缺少统一可比的ETF份额和产业链网络快照",
+        "missingReason": null,
         "caveat": "单只上涨而行业网络不响应时，降低持续性判断。"
       },
       {
@@ -443,7 +437,7 @@
         "totalSymbols": 13,
         "coveragePct": 0,
         "status": "awaiting_data",
-        "missingReason": "同花顺沪市和科创板龙虎榜暂未公布；候选层未取得完整监管事件增量",
+        "missingReason": null,
         "caveat": "监管信息主要用于风险和可交易性，不用作幕后身份认定。"
       }
     ],

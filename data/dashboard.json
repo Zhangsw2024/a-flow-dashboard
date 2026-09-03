@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-01 16:35",
+    "updatedAt": "2026-09-03 16:35",
     "modelVersion": "V1.0",
     "modelStatus": "试验 · 未校准",
     "maturedSamples": 38,
@@ -11,49 +11,49 @@
   "account": {
     "initialCash": 1000000,
     "cash": 797921.79,
-    "nav": 999406.79,
-    "exposurePct": 20.1605,
-    "dailyReturnPct": 0.476,
-    "cumulativeReturnPct": -0.059,
+    "nav": 992991.79,
+    "exposurePct": 19.6447,
+    "dailyReturnPct": -0.092,
+    "cumulativeReturnPct": -0.701,
     "fees": 309.42,
     "realizedPnl": -9214.35,
-    "unrealizedPnl": 8621.14
+    "unrealizedPnl": 2206.14
   },
   "benchmark": {
     "name": "中证1000",
-    "close": 7691.37,
-    "dailyReturnPct": -1.02,
-    "cumulativeReturnPct": -0.087
+    "close": 7600.1,
+    "dailyReturnPct": 0.22,
+    "cumulativeReturnPct": -1.272
   },
   "market": {
-    "regime": "指数回落 · 个股多数上涨 · 消费农业短剧银行走强",
-    "turnoverBillion": 20519,
-    "turnoverChangeBillion": -934,
-    "advancers": 3387,
-    "decliners": 2040,
-    "flat": null,
-    "limitUp": null,
-    "limitDown": null,
+    "regime": "指数微涨 · 个股普跌 · 航运保险液冷走强 · 高位题材分化",
+    "turnoverBillion": 17589.16,
+    "turnoverChangeBillion": -322.62,
+    "advancers": 1844,
+    "decliners": 3565,
+    "flat": 139,
+    "limitUp": 46,
+    "limitDown": 17,
     "indices": [
       {
         "name": "上证指数",
-        "close": 3979.89,
-        "returnPct": -0.16
+        "close": 3942.09,
+        "returnPct": 0.02
       },
       {
         "name": "深证成指",
-        "close": 13872.38,
-        "returnPct": -1.02
+        "close": 13625.12,
+        "returnPct": 0.1
       },
       {
         "name": "创业板指",
-        "close": 3393.43,
-        "returnPct": -1.32
+        "close": 3312.54,
+        "returnPct": 0.01
       },
       {
         "name": "中证1000",
-        "close": 7691.37,
-        "returnPct": -1.02
+        "close": 7600.1,
+        "returnPct": 0.22
       }
     ]
   },
@@ -137,120 +137,130 @@
       "date": "09-01",
       "nav": 999406.79,
       "benchmark": 999132.25
+    },
+    {
+      "date": "09-02",
+      "nav": 993903.79,
+      "benchmark": 985153.38
+    },
+    {
+      "date": "09-03",
+      "nav": 992991.79,
+      "benchmark": 987276
     }
   ],
   "stage1": [
     {
       "code": "301330",
       "name": "熵基科技",
-      "close": 25.99,
-      "dayReturnPct": 1.01,
-      "turnoverMillion": 155.27,
-      "pEnter": 70,
-      "pUp": 50,
-      "pExit": 52,
-      "action": "观察_缩量上涨且承接稳定"
+      "close": 25.72,
+      "dayReturnPct": -0.08,
+      "turnoverMillion": 103.52,
+      "pEnter": 68,
+      "pUp": 48,
+      "pExit": 55,
+      "action": "观察_连续缩量整理，等待量价重新同步"
     },
     {
       "code": "603172",
       "name": "万丰股份",
-      "close": 19.29,
-      "dayReturnPct": 2.33,
-      "turnoverMillion": 102.75,
-      "pEnter": 64,
-      "pUp": 45,
-      "pExit": 61,
-      "action": "观察_回升但仍需量能确认"
+      "close": 18.78,
+      "dayReturnPct": -1.57,
+      "turnoverMillion": 48.95,
+      "pEnter": 60,
+      "pUp": 41,
+      "pExit": 66,
+      "action": "观察_连续回落且收于日低，承接转弱"
     },
     {
       "code": "600278",
       "name": "东方创业",
-      "close": 6.61,
-      "dayReturnPct": 1.85,
-      "turnoverMillion": 55.33,
-      "pEnter": 62,
-      "pUp": 43,
-      "pExit": 58,
-      "action": "观察_缩量修复"
+      "close": 6.51,
+      "dayReturnPct": -0.76,
+      "turnoverMillion": 29.25,
+      "pEnter": 59,
+      "pUp": 40,
+      "pExit": 62,
+      "action": "观察_缩量回落，尚无点火证据"
     },
     {
       "code": "600210",
       "name": "紫江企业",
-      "close": 6.16,
-      "dayReturnPct": 0.65,
-      "turnoverMillion": 115.14,
-      "pEnter": 62,
-      "pUp": 44,
-      "pExit": 56,
-      "action": "观察_低波动承接"
+      "close": 6.1,
+      "dayReturnPct": -0.33,
+      "turnoverMillion": 70.13,
+      "pEnter": 59,
+      "pUp": 41,
+      "pExit": 60,
+      "action": "观察_低波动但资金确认不足"
     },
     {
       "code": "002320",
       "name": "海峡股份",
-      "close": 6.92,
-      "dayReturnPct": 4.53,
-      "turnoverMillion": 568.01,
-      "pEnter": 68,
-      "pUp": 49,
-      "pExit": 59,
-      "action": "等待确认_放量走强但不追涨"
+      "close": 6.86,
+      "dayReturnPct": -0.29,
+      "turnoverMillion": 494.55,
+      "pEnter": 65,
+      "pUp": 46,
+      "pExit": 63,
+      "action": "等待确认_冲高回落，未形成有效突破"
     },
     {
       "code": "603596",
       "name": "伯特利",
-      "close": 29.84,
-      "dayReturnPct": 6.31,
-      "turnoverMillion": 1267.81,
-      "pEnter": 75,
-      "pUp": 55,
-      "pExit": 61,
-      "action": "等待确认_放量突破并保留高位风险"
+      "close": 30.45,
+      "dayReturnPct": 1.2,
+      "turnoverMillion": 718.5,
+      "pEnter": 77,
+      "pUp": 56,
+      "pExit": 60,
+      "action": "等待确认_连续两日相对强势但不追涨"
     }
   ],
   "stage2": [
     {
       "code": "300170",
       "name": "汉得信息",
-      "close": 17.23,
-      "dayReturnPct": 1.53,
-      "turnoverMillion": 1520.16,
-      "pEnter": 83,
-      "pUp": 62,
-      "pExit": 52,
-      "action": "条件性关注_已先触及固定+5%标签且未触发退出线"
+      "close": 16.46,
+      "dayReturnPct": -1.44,
+      "turnoverMillion": 697.27,
+      "pEnter": 79,
+      "pUp": 57,
+      "pExit": 62,
+      "action": "等待确认_标签已命中但回吐扩大，持仓守16.31退出线"
     },
     {
       "code": "688561",
       "name": "奇安信-U",
-      "close": 27.73,
-      "dayReturnPct": 3.32,
-      "turnoverMillion": 396.21,
-      "pEnter": 79,
-      "pUp": 59,
-      "pExit": 55,
-      "action": "条件性关注_收盘强于指数且未触发退出线"
+      "close": 27.21,
+      "dayReturnPct": 0.52,
+      "turnoverMillion": 195.12,
+      "pEnter": 76,
+      "pUp": 56,
+      "pExit": 58,
+      "action": "条件性关注_缩量企稳且未触发退出线"
     },
     {
       "code": "601360",
       "name": "三六零",
-      "close": 9.27,
-      "dayReturnPct": 0.54,
-      "turnoverMillion": 1603.63,
-      "pEnter": 75,
-      "pUp": 54,
-      "pExit": 61,
-      "action": "等待确认_组合未成交但信号层继续计时"
+      "close": 8.89,
+      "dayReturnPct": -1.11,
+      "turnoverMillion": 730.94,
+      "pEnter": 70,
+      "pUp": 48,
+      "pExit": 68,
+      "action": "风险升高_连续回落且点火延续性不足"
     },
     {
       "code": "300456",
       "name": "赛微电子",
-      "close": 39.68,
-      "dayReturnPct": -1.44,
-      "turnoverMillion": 1805.81,
-      "pEnter": 75,
-      "pUp": 49,
-      "pExit": 78,
-      "action": "风险升高_连续回撤且P_exit超过阈值"
+      "close": 38.83,
+      "dayReturnPct": -1.92,
+      "turnoverMillion": 1830.22,
+      "pEnter": 71,
+      "pUp": 43,
+      "pExit": 84,
+      "action": "风险升高_高换手震荡后再度回落"
     }
   ],
   "pendingOrders": [],
@@ -258,42 +268,42 @@
     {
       "code": "688209",
       "name": "英集芯",
-      "close": 30.24,
-      "dayReturnPct": 5.18,
-      "pExit": 87,
-      "reason": "高位换手延续，尚未触及固定-8%回撤标签"
+      "close": 33.29,
+      "dayReturnPct": 10.75,
+      "pExit": 91,
+      "reason": "放量上涨且日内振幅14.64%，高位加速后的兑现风险上升"
     },
     {
       "code": "300642",
       "name": "透景生命",
-      "close": 20.35,
-      "dayReturnPct": 19.99,
-      "pExit": 96,
-      "reason": "前一交易日退出风险标签已命中，今日涨停不反向改写历史标签"
+      "close": 18.33,
+      "dayReturnPct": -4.28,
+      "pExit": 98,
+      "reason": "涨停后连续两日回撤且换手仍高，派发路径继续验证"
     },
     {
       "code": "301399",
       "name": "英特科技",
-      "close": 22.4,
-      "dayReturnPct": -4.36,
-      "pExit": 91,
-      "reason": "28.07%换手并回撤4.36%，高位筹码交换风险上升"
+      "close": 21.44,
+      "dayReturnPct": -0.28,
+      "pExit": 93,
+      "reason": "连续高换手后弱势整理，筹码交换风险未解除"
     },
     {
       "code": "301533",
       "name": "威马农机",
-      "close": 30.86,
-      "dayReturnPct": 3.31,
-      "pExit": 87,
-      "reason": "25.90%换手，反弹但风险尚未解除"
+      "close": 28.57,
+      "dayReturnPct": -3.48,
+      "pExit": 94,
+      "reason": "连续两日下跌并维持双位数换手，退出风险升高"
     },
     {
       "code": "002396",
       "name": "星网锐捷",
-      "close": 39.75,
-      "dayReturnPct": -1.51,
-      "pExit": 94,
-      "reason": "17.41%换手且涨停后回落，兑现风险保持高位"
+      "close": 39.65,
+      "dayReturnPct": -0.45,
+      "pExit": 95,
+      "reason": "14.32%高换手且盘中振幅7.43%，高位兑现仍明显"
     }
   ],
   "quality": [
@@ -314,8 +324,8 @@
     },
     {
       "label": "概率校准与成熟样本",
-      "value": 100,
-      "detail": "38 / 30"
+      "value": 0,
+      "detail": "38 个前瞻样本 · 未校准，不满 100 不填进度"
     },
     {
       "label": "历史点时回放",
@@ -334,7 +344,7 @@
     }
   ],
   "notes": [
-    "未取得主动池统一口径的20日均线快照，因此退出风险仅按冻结价格与已核验日线判定",
+    "a-stock-data首批适配器仍在影子字段探测，未获准改写V1.0评分",
     "公开交易数据不能确认幕后账户最终受益人",
     "量化适配层A-FLOW-ADAPTERS-1.1已接线；依赖、字段、单位、点时和交叉来源校验完成前不进入评分。",
     "历史点时回放10个样本，净收益均值-4.417%；不计入实时前瞻成熟样本。"
@@ -345,11 +355,11 @@
       "name": "汉得信息",
       "quantity": 5900,
       "costPrice": 16.3814,
-      "close": 17.23,
-      "marketValue": 101657,
-      "weightPct": 10.17,
-      "unrealizedPnl": 5006.74,
-      "holdingDays": 2,
+      "close": 16.46,
+      "marketValue": 97114,
+      "weightPct": 9.78,
+      "unrealizedPnl": 463.74,
+      "holdingDays": 4,
       "exitRule": "P_exit升至75、收盘跌破16.31元、观察期届满或波动风险上限触发；次日首个可执行价格退出"
     },
     {
@@ -357,11 +367,11 @@
       "name": "奇安信-U",
       "quantity": 3600,
       "costPrice": 26.726,
-      "close": 27.73,
-      "marketValue": 99828,
-      "weightPct": 9.99,
-      "unrealizedPnl": 3614.4,
-      "holdingDays": 2,
+      "close": 27.21,
+      "marketValue": 97956,
+      "weightPct": 9.86,
+      "unrealizedPnl": 1742.4,
+      "holdingDays": 4,
       "exitRule": "P_exit升至75、收盘跌破26.59元、观察期届满或波动风险上限触发；次日首个可执行价格退出"
     }
   ],

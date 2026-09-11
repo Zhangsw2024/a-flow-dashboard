@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-09-09 16:45",
+    "updatedAt": "2026-09-11 16:45",
     "modelVersion": "V1.0",
     "modelStatus": "试验 · 未校准",
-    "maturedSamples": 54,
+    "maturedSamples": 62,
     "refreshSeconds": 60,
     "historicalSamples": 10,
     "historicalSplit": "audit_seed"
@@ -11,47 +11,47 @@
   "account": {
     "initialCash": 1000000,
     "cash": 702581.18,
-    "nav": 1005641.18,
-    "exposurePct": 30.136000000000003,
-    "dailyReturnPct": 0.567,
-    "cumulativeReturnPct": 0.564,
+    "nav": 994110.18,
+    "exposurePct": 29.3256,
+    "dailyReturnPct": -0.553,
+    "cumulativeReturnPct": -0.589,
     "fees": 555.09,
     "realizedPnl": -4821.65,
-    "unrealizedPnl": 10463.18
+    "unrealizedPnl": -1067.82
   },
   "benchmark": {
     "name": "中证1000",
-    "close": 7648.8,
-    "dailyReturnPct": -0.14,
-    "cumulativeReturnPct": -0.64
+    "close": 7427.24,
+    "dailyReturnPct": -2.115,
+    "cumulativeReturnPct": -3.518
   },
   "market": {
-    "regime": "指数窄幅分化 · 成交缩量 · 风险偏好中性",
-    "turnoverBillion": 18556.07,
+    "regime": "普跌 · 中小盘风险收缩 · 成交放大",
+    "turnoverBillion": 19865.67,
     "turnoverChangeBillion": null,
-    "advancers": null,
-    "decliners": null,
-    "flat": null,
+    "advancers": 624,
+    "decliners": 4636,
+    "flat": 50,
     "indices": [
       {
         "name": "上证指数",
-        "close": 3951.51,
-        "returnPct": 0.28
+        "close": 3888.11,
+        "returnPct": -1.18
       },
       {
         "name": "深证成指",
-        "close": 13723.32,
-        "returnPct": 0.15
+        "close": 13471.26,
+        "returnPct": -1.08
       },
       {
         "name": "创业板指",
-        "close": 3354.97,
-        "returnPct": -0.14
+        "close": 3322.04,
+        "returnPct": -0.49
       },
       {
         "name": "中证1000",
-        "close": 7648.8,
-        "returnPct": -0.14
+        "close": 7427.24,
+        "returnPct": -2.115
       }
     ]
   },
@@ -165,201 +165,340 @@
       "date": "09-09",
       "nav": 1005641.18,
       "benchmark": 993678.14
+    },
+    {
+      "date": "09-10",
+      "nav": 999642.18,
+      "benchmark": 985746.95
+    },
+    {
+      "date": "09-11",
+      "nav": 994110.18,
+      "benchmark": 964894.62
     }
   ],
   "stage1": [
     {
-      "code": "000519",
-      "name": "中兵红箭",
-      "close": 16.63,
-      "dayReturnPct": 3.55,
-      "turnoverMillion": 1849.44,
-      "pEnter": 89,
-      "pUp": 68,
-      "pExit": 40,
-      "action": "观察_冻结量价触发尚未同时满足"
-    },
-    {
-      "code": "002840",
-      "name": "华统股份",
-      "close": 9.03,
-      "dayReturnPct": -0.66,
-      "turnoverMillion": 120.88,
-      "pEnter": 89,
-      "pUp": 69,
-      "pExit": 46,
-      "action": "观察_冻结量价触发尚未同时满足"
-    },
-    {
-      "code": "600228",
-      "name": "返利科技",
-      "close": 9.92,
-      "dayReturnPct": -1.39,
-      "turnoverMillion": 175.77,
-      "pEnter": 88,
-      "pUp": 72,
-      "pExit": 58,
-      "action": "观察_冻结量价触发尚未同时满足"
-    },
-    {
-      "code": "001208",
-      "name": "华菱线缆",
-      "close": 14.56,
-      "dayReturnPct": 0.9,
-      "turnoverMillion": 158.45,
+      "code": "002617",
+      "name": "露笑科技",
+      "close": 6.64,
+      "dayReturnPct": 4.57,
+      "turnoverMillion": 1381.52,
       "pEnter": 87,
-      "pUp": 66,
-      "pExit": 39,
-      "action": "观察_冻结量价触发尚未同时满足"
+      "pUp": 60,
+      "pExit": 41,
+      "action": "等待确认_周筛入选，需后续量价延续"
     },
     {
-      "code": "000520",
-      "name": "凤凰航运",
-      "close": 4.53,
-      "dayReturnPct": 2.49,
-      "turnoverMillion": 399.22,
+      "code": "600982",
+      "name": "宁波能源",
+      "close": 5.23,
+      "dayReturnPct": 3.56,
+      "turnoverMillion": 412.24,
+      "pEnter": 87,
+      "pUp": 67,
+      "pExit": 46,
+      "action": "等待确认_周筛入选，需后续量价延续"
+    },
+    {
+      "code": "300292",
+      "name": "吴通控股",
+      "close": 4.59,
+      "dayReturnPct": 5.03,
+      "turnoverMillion": 650.84,
+      "pEnter": 86,
+      "pUp": 66,
+      "pExit": 38,
+      "action": "等待确认_周筛入选，需后续量价延续"
+    },
+    {
+      "code": "300427",
+      "name": "红相股份",
+      "close": 7.1,
+      "dayReturnPct": 3.95,
+      "turnoverMillion": 430.34,
       "pEnter": 86,
       "pUp": 65,
+      "pExit": 48,
+      "action": "等待确认_周筛入选，需后续量价延续"
+    },
+    {
+      "code": "600163",
+      "name": "中闽能源",
+      "close": 5.54,
+      "dayReturnPct": 1.65,
+      "turnoverMillion": 404.31,
+      "pEnter": 86,
+      "pUp": 60,
+      "pExit": 37,
+      "action": "等待确认_周筛入选，需后续量价延续"
+    },
+    {
+      "code": "300414",
+      "name": "中光防雷",
+      "close": 11.9,
+      "dayReturnPct": 2.85,
+      "turnoverMillion": 295.2,
+      "pEnter": 86,
+      "pUp": 65,
+      "pExit": 40,
+      "action": "等待确认_周筛入选，需后续量价延续"
+    },
+    {
+      "code": "003035",
+      "name": "南网能源",
+      "close": 5.98,
+      "dayReturnPct": 3.1,
+      "turnoverMillion": 596.08,
+      "pEnter": 84,
+      "pUp": 65,
       "pExit": 39,
-      "action": "观察_冻结量价触发尚未同时满足"
+      "action": "等待确认_周筛入选，需后续量价延续"
     },
     {
-      "code": "300581",
-      "name": "晨曦航空",
-      "close": 11.06,
-      "dayReturnPct": 0.09,
-      "turnoverMillion": 280.82,
-      "pEnter": 86,
+      "code": "300711",
+      "name": "广哈通信",
+      "close": 21.13,
+      "dayReturnPct": 5.18,
+      "turnoverMillion": 454.05,
+      "pEnter": 84,
+      "pUp": 70,
+      "pExit": 37,
+      "action": "等待确认_周筛入选，需后续量价延续"
+    },
+    {
+      "code": "300121",
+      "name": "阳谷华泰",
+      "close": 10.06,
+      "dayReturnPct": 4.14,
+      "turnoverMillion": 317.91,
+      "pEnter": 84,
       "pUp": 59,
-      "pExit": 45,
-      "action": "观察_冻结量价触发尚未同时满足"
-    },
-    {
-      "code": "603058",
-      "name": "永吉股份",
-      "close": 9.46,
-      "dayReturnPct": -1.87,
-      "turnoverMillion": 102.95,
-      "pEnter": 86,
-      "pUp": 67,
-      "pExit": 42,
-      "action": "观察_冻结量价触发尚未同时满足"
-    },
-    {
-      "code": "603161",
-      "name": "科华控股",
-      "close": 16.81,
-      "dayReturnPct": -3.39,
-      "turnoverMillion": 100.45,
-      "pEnter": 86,
-      "pUp": 69,
       "pExit": 41,
-      "action": "观察_冻结量价触发尚未同时满足"
+      "action": "等待确认_周筛入选，需后续量价延续"
+    },
+    {
+      "code": "002130",
+      "name": "沃尔核材",
+      "close": 17.93,
+      "dayReturnPct": 4.43,
+      "turnoverMillion": 1694.18,
+      "pEnter": 83,
+      "pUp": 59,
+      "pExit": 34,
+      "action": "等待确认_周筛入选，需后续量价延续"
     }
   ],
   "stage2": [
     {
-      "code": "688600",
-      "name": "皖仪科技",
-      "close": 34.1,
-      "dayReturnPct": 5.9,
-      "turnoverMillion": 312.78,
-      "pEnter": 85,
-      "pUp": 74,
-      "pExit": 47,
-      "action": "观察_前一日回撤后修复，固定+5%门槛尚未触及"
+      "code": "300913",
+      "name": "兆龙互连",
+      "close": 42.92,
+      "dayReturnPct": 8.63,
+      "turnoverMillion": 1834.16,
+      "pEnter": 80,
+      "pUp": 75,
+      "pExit": 60,
+      "action": "条件性关注_仅在次日可成交且未超冻结区间时执行"
     },
     {
-      "code": "603991",
-      "name": "领先股份",
-      "close": 180.4,
-      "dayReturnPct": 1.68,
-      "turnoverMillion": 816.2,
-      "pEnter": 85,
+      "code": "300739",
+      "name": "明阳电路",
+      "close": 28.63,
+      "dayReturnPct": 6.31,
+      "turnoverMillion": 1194.63,
+      "pEnter": 89,
+      "pUp": 75,
+      "pExit": 55,
+      "action": "条件性关注_仅在次日可成交且未超冻结区间时执行"
+    },
+    {
+      "code": "605058",
+      "name": "澳弘电子",
+      "close": 33.31,
+      "dayReturnPct": 10.01,
+      "turnoverMillion": 324.18,
+      "pEnter": 84,
+      "pUp": 74,
+      "pExit": 55,
+      "action": "等待确认_收盘涨停，无次日可成交证据不追入"
+    },
+    {
+      "code": "603386",
+      "name": "骏亚科技",
+      "close": 16.46,
+      "dayReturnPct": 10.03,
+      "turnoverMillion": 477.89,
+      "pEnter": 84,
       "pUp": 73,
-      "pExit": 44,
-      "action": "风险升高_固定+5%标签已命中，持仓仍按退出纪律执行"
+      "pExit": 45,
+      "action": "等待确认_收盘涨停，无次日可成交证据不追入"
+    },
+    {
+      "code": "002242",
+      "name": "九阳股份",
+      "close": 9.74,
+      "dayReturnPct": 10.06,
+      "turnoverMillion": 324.16,
+      "pEnter": 80,
+      "pUp": 73,
+      "pExit": 57,
+      "action": "等待确认_收盘涨停，无次日可成交证据不追入"
+    },
+    {
+      "code": "300852",
+      "name": "四会富仕",
+      "close": 65.59,
+      "dayReturnPct": 3.1,
+      "turnoverMillion": 1361.05,
+      "pEnter": 88,
+      "pUp": 72,
+      "pExit": 71,
+      "action": "风险升高_高波动，仅保留信号层观察"
+    },
+    {
+      "code": "002902",
+      "name": "铭普光磁",
+      "close": 30.86,
+      "dayReturnPct": 10.02,
+      "turnoverMillion": 1072.79,
+      "pEnter": 75,
+      "pUp": 72,
+      "pExit": 64,
+      "action": "等待确认_收盘涨停，无次日可成交证据不追入"
+    },
+    {
+      "code": "002383",
+      "name": "合众思壮",
+      "close": 8.24,
+      "dayReturnPct": 5.24,
+      "turnoverMillion": 518.47,
+      "pEnter": 89,
+      "pUp": 72,
+      "pExit": 36,
+      "action": "条件性关注_仅在次日可成交且未超冻结区间时执行"
+    },
+    {
+      "code": "600104",
+      "name": "上汽集团",
+      "close": 11.72,
+      "dayReturnPct": 5.11,
+      "turnoverMillion": 2612.48,
+      "pEnter": 87,
+      "pUp": 71,
+      "pExit": 43,
+      "action": "条件性关注_仅在次日可成交且未超冻结区间时执行"
+    },
+    {
+      "code": "688655",
+      "name": "迅捷兴科技",
+      "close": 60.12,
+      "dayReturnPct": 6.75,
+      "turnoverMillion": 1048.5,
+      "pEnter": 71,
+      "pUp": 71,
+      "pExit": 61,
+      "action": "条件性关注_仅在次日可成交且未超冻结区间时执行"
+    }
+  ],
+  "pendingOrders": [
+    {
+      "code": "688600",
+      "name": "皖仪科技",
+      "side": "sell",
+      "quantity": 2900,
+      "budgetPct": 0,
+      "range": "2026-09-14首15分钟近似VWAP；不可成交则保留并逐日重试",
+      "cancelRule": "固定5交易日观察期届满"
     },
     {
       "code": "600185",
       "name": "珠免集团",
-      "close": 5.3,
-      "dayReturnPct": -1.67,
-      "turnoverMillion": 309.59,
-      "pEnter": 88,
-      "pUp": 73,
-      "pExit": 36,
-      "action": "观察_固定标签或阶段确认窗口继续"
+      "side": "sell",
+      "quantity": 18100,
+      "budgetPct": 0,
+      "range": "2026-09-14首15分钟近似VWAP；不可成交则保留并逐日重试",
+      "cancelRule": "固定5交易日观察期届满"
     },
     {
-      "code": "000635",
-      "name": "英 力 特",
-      "close": 7.53,
-      "dayReturnPct": -0.66,
-      "turnoverMillion": 145.33,
-      "pEnter": 85,
-      "pUp": 73,
-      "pExit": 58,
-      "action": "观察_固定标签或阶段确认窗口继续"
+      "code": "603991",
+      "name": "领先股份",
+      "side": "sell",
+      "quantity": 600,
+      "budgetPct": 0,
+      "range": "2026-09-14首15分钟近似VWAP；不可成交则保留并逐日重试",
+      "cancelRule": "固定5交易日观察期届满"
     },
     {
-      "code": "300829",
-      "name": "金丹科技",
-      "close": 17.28,
-      "dayReturnPct": 0.17,
-      "turnoverMillion": 88.83,
-      "pEnter": 83,
-      "pUp": 73,
-      "pExit": 43,
-      "action": "观察_固定标签或阶段确认窗口继续"
+      "code": "300739",
+      "name": "明阳电路",
+      "side": "buy",
+      "quantity": 3300,
+      "budgetPct": 9.5,
+      "range": "28.06 — 29.49",
+      "cancelRule": "VWAP超区间、重大风险事件或数据缺失则取消"
     },
     {
-      "code": "002265",
-      "name": "建设工业",
-      "close": 21.67,
-      "dayReturnPct": 2.75,
-      "turnoverMillion": 780.89,
-      "pEnter": 92,
-      "pUp": 72,
-      "pExit": 48,
-      "action": "观察_固定标签或阶段确认窗口继续"
+      "code": "002383",
+      "name": "合众思壮",
+      "side": "buy",
+      "quantity": 11500,
+      "budgetPct": 9.53,
+      "range": "8.08 — 8.49",
+      "cancelRule": "封涨停、VWAP超区间、重大风险事件或数据缺失则取消"
     },
     {
-      "code": "600629",
-      "name": "华建集团",
-      "close": 18.2,
-      "dayReturnPct": 3.7,
-      "turnoverMillion": 667.23,
-      "pEnter": 85,
-      "pUp": 71,
-      "pExit": 47,
-      "action": "观察_固定标签或阶段确认窗口继续"
-    },
-    {
-      "code": "002602",
-      "name": "世纪华通",
-      "close": 15.78,
-      "dayReturnPct": -2.17,
-      "turnoverMillion": 1716.12,
-      "pEnter": 78,
-      "pUp": 70,
-      "pExit": 37,
-      "action": "观察_固定标签或阶段确认窗口继续"
-    },
-    {
-      "code": "600318",
-      "name": "新力金融",
-      "close": 7.35,
-      "dayReturnPct": -2.26,
-      "turnoverMillion": 411.74,
-      "pEnter": 87,
-      "pUp": 67,
-      "pExit": 46,
-      "action": "等待确认_转阶段后缩量回撤，不生成模拟委托"
+      "code": "600104",
+      "name": "上汽集团",
+      "side": "buy",
+      "quantity": 8100,
+      "budgetPct": 9.55,
+      "range": "11.49 — 12.07",
+      "cancelRule": "封涨停、VWAP超区间、重大风险事件或数据缺失则取消"
     }
   ],
-  "pendingOrders": [],
-  "risks": [],
+  "risks": [
+    {
+      "code": "002636",
+      "name": "金安国纪",
+      "close": 82.46,
+      "dayReturnPct": 7.86,
+      "pExit": 100,
+      "reason": "高换手/高振幅复合风险：换手47.06%，振幅14.39%，5日16.96%"
+    },
+    {
+      "code": "000823",
+      "name": "超声电子",
+      "close": 20.57,
+      "dayReturnPct": 10,
+      "pExit": 100,
+      "reason": "高换手/高振幅复合风险：换手47.28%，振幅12.67%，5日36.23%"
+    },
+    {
+      "code": "600127",
+      "name": "金健米业",
+      "close": 13.55,
+      "dayReturnPct": -3.21,
+      "pExit": 100,
+      "reason": "高换手/高振幅复合风险：换手48.44%，振幅8.93%，5日14.54%"
+    },
+    {
+      "code": "002579",
+      "name": "中京电子",
+      "close": 17.08,
+      "dayReturnPct": 2.09,
+      "pExit": 100,
+      "reason": "高换手/高振幅复合风险：换手40.22%，振幅11.24%，5日23.68%"
+    },
+    {
+      "code": "000759",
+      "name": "中百集团",
+      "close": 8.13,
+      "dayReturnPct": -6.44,
+      "pExit": 100,
+      "reason": "高换手/高振幅复合风险：换手147.38%，振幅17.95%，5日29.87%"
+    }
+  ],
   "quality": [
     {
       "label": "日线与成交数据",
@@ -373,13 +512,13 @@
     },
     {
       "label": "分钟VWAP与成交可得性",
-      "value": 88,
-      "detail": "1笔委托已核验"
+      "value": 35,
+      "detail": "当日无待判定委托"
     },
     {
       "label": "概率校准与成熟样本",
       "value": 0,
-      "detail": "54 个前瞻样本 · 未校准，不满 100 不填进度"
+      "detail": "62 个前瞻样本 · 未校准，不满 100 不填进度"
     },
     {
       "label": "历史点时回放",
@@ -398,8 +537,8 @@
     }
   ],
   "notes": [
-    "龙虎榜席位、融资融券、大宗交易与公告未做全量双源核验，未作为当日新增强特征",
-    "公开数据不能确认营业部背后的最终受益人，也不能证明单一主体控盘",
+    "公开交易数据只能识别大额成交、量价异常和席位网络线索，不能确认营业部背后的最终受益人或证明单一主体控盘",
+    "模拟委托不等于实盘可成交，9月14日仍需判定涨跌停、停牌和首15分钟流动性",
     "量化适配层A-FLOW-ADAPTERS-1.1已接线；依赖、字段、单位、点时和交叉来源校验完成前不进入评分。",
     "历史点时回放10个样本，净收益均值-4.417%；不计入实时前瞻成熟样本。"
   ],
@@ -409,50 +548,39 @@
       "name": "皖仪科技",
       "quantity": 2900,
       "costPrice": 33.9803,
-      "close": 34.1,
-      "marketValue": 98890,
-      "weightPct": 9.83,
-      "unrealizedPnl": 347.13,
-      "holdingDays": 3,
-      "exitRule": "固定5交易日观察期；若P_exit升至75、收盘跌破冻结失效价或风险上限触发，则下一可执行价格退出"
+      "close": 32.98,
+      "marketValue": 95642,
+      "weightPct": 9.62,
+      "unrealizedPnl": -2900.87,
+      "holdingDays": 5,
+      "exitRule": "5交易日观察期已届满；2026-09-14按首个可执行价格退出。跌停或停牌无法成交则保留并逐日重试"
     },
     {
       "code": "600185",
       "name": "珠免集团",
       "quantity": 18100,
       "costPrice": 5.4063,
-      "close": 5.3,
-      "marketValue": 95930,
-      "weightPct": 9.54,
-      "unrealizedPnl": -1924.03,
-      "holdingDays": 3,
-      "exitRule": "固定5交易日观察期；若P_exit升至75、收盘跌破冻结失效价或风险上限触发，则下一可执行价格退出"
+      "close": 4.97,
+      "marketValue": 89957,
+      "weightPct": 9.05,
+      "unrealizedPnl": -7897.03,
+      "holdingDays": 5,
+      "exitRule": "5交易日观察期已届满；2026-09-14按首个可执行价格退出。跌停或停牌无法成交则保留并逐日重试"
     },
     {
       "code": "603991",
       "name": "领先股份",
       "quantity": 600,
       "costPrice": 160.3332,
-      "close": 180.4,
-      "marketValue": 108240,
-      "weightPct": 10.76,
-      "unrealizedPnl": 12040.08,
-      "holdingDays": 3,
-      "exitRule": "固定5交易日观察期；若P_exit升至75、收盘跌破冻结失效价或风险上限触发，则下一可执行价格退出"
+      "close": 176.55,
+      "marketValue": 105930,
+      "weightPct": 10.66,
+      "unrealizedPnl": 9730.08,
+      "holdingDays": 5,
+      "exitRule": "5交易日观察期已届满；2026-09-14按首个可执行价格退出。跌停或停牌无法成交则保留并逐日重试"
     }
   ],
-  "todayOrders": [
-    {
-      "code": "600088",
-      "name": "中视传媒",
-      "side": "buy",
-      "status": "cancelled",
-      "quantity": 7500,
-      "fillPrice": null,
-      "commission": 0,
-      "reason": "首15分钟近似VWAP 12.643元低于冻结区间下限12.88元，量价确认失败；不追溯成交"
-    }
-  ],
+  "todayOrders": [],
   "evidenceLayer": {
     "researchVersion": "V2.0-research",
     "status": "staged_shadow_only",
